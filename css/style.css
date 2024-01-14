@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/imgs/img_order.png);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/* PLACE TO CONTROL FULL PAGE COM */
+
+.container_site{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: violet;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+/* THE CARD THINGS */
+
+.card_summary{
+    width: 30%;
+    margin: 45px;
+    color: white;
+    height:550px;
+    /* border: 1px solid #191919; */
+    border-radius: 5px;
+    /* background-color: white; */
+    /* USE THE GRID TO SPLIT THE DIV */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 215px;
+}
+
+/* CARD SPLIT PLACE */
+
+.img_card_top{
+    background-color:#191919;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIX THE SIZE ICON TO FIT THE CONTAINER */
+
+.fix_whole_size{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FIX EDIT IMG */
+
+#img_music_edit{
+    background-color: violet;
+    border-radius: 55px;
+    padding: 5px;
+}
+
+.card_split{
+    background-color:#191919;
+    border-radius: 5px;
+}
+
+.card_split{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 15% 20% 20%;
+    /* grid-gap: 5px 5px; */
+}
+
+/* ORDER TITLE PLACE */
+
+.title_order_summary{
+    background-color: white;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid #191919;
+    display: flex;
+    letter-spacing: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* P FOR UNDER TITLE */
+
+.para_for_title{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* AN DIV */
+
+.annual_zone_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 4px 4px;
+    background-color: white;
+    letter-spacing: 3px;
+}
+
+.annual{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ANNUAL PRICE */
+
+#annual_price{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PRICE CHANGE */
+
+#price_can_change p{
+    /* border-bottom: 1px solid black; */
+}
+
+/* BTNS PLACE */
+
+.btns_card{
+    background-color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* EDIT BTNS SIZE */
+
+button{
+    width: 90%;
+    height: 40%;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 55px;
+}
+
+/* FIRST BTN */
+
+#first_btn{
+    background-color: violet;
+}
+
+#sec_btn{
+    /* border: 1px solid #191919; */
+    box-shadow: 2px 2px 2px #191919;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
